@@ -1,0 +1,12 @@
+git status命令可以让我们时刻掌握仓库当前的状态
+git diff：查看difference（能看出上次具体修改了什么内容）
+提交修改和提交新文件是一样的两步，第一步是git add
+然后可运行git status看看当前仓库的状态
+提交git commit
+提交后，再用git status命令看看仓库的当前状态
+
+小结
+
+要随时掌握工作区的状态，使用git status命令。
+
+如果git status告诉你有文件被修改过，用git diff可以查看修改内容。
